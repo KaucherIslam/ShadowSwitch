@@ -12,6 +12,49 @@ This tool is designed for security enthusiasts who want a "Universal Switch" for
 
 [**Connect with me on LinkedIn**](https://www.linkedin.com/in/kaucherislamforhad)
 
+<h2>Installation:</h2>
+
+***Note:** This is an early development version; please monitor this repository for the full release.*
+
+ - **Update your system repositories**
+
+```bash
+sudo apt update -y
+```
+ 
+ - **Ensure Git is installed on your system**
+
+If Git is not present, install it using:
+
+```bash
+sudo apt install git -y
+```
+
+ - **The core installation:**
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/KaucherIslam/ShadowSwitch
+```
+
+Navigate into the directory and install the necessary prerequisites:
+
+```bash
+cd ShadowSwitch
+```
+```bash
+bash setup.sh
+```
+
+ - **Launch the Application**
+
+Once the setup is complete, start the dashboard:
+
+```bash
+python3 ShadowSwitch.py
+```
+
 <h2>Core Features</h2>
 
  - Automatic Mode: A "Set and Forget" toggle that executes the full anonymity stack—MAC randomization, hostname spoofing, firewall activation, and proxy routing—sequentially and verifies each step.
