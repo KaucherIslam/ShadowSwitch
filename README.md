@@ -47,12 +47,20 @@ cd ShadowSwitch
 bash setup.sh
 ```
 
+***The installer will ask you to enter 'y' (yes) or 'n' (no) to confirm whether you would like to proceed with a direct installation of the components or installing in a virtual environment***
+
  - **Launch the Application**
 
 Once the setup is complete, start the dashboard:
 
 ```bash
-python3 ShadowSwitch.py
+bash start.sh
+```
+
+**Or you can also use**
+
+```bash
+./ start.sh
 ```
 
 <h2>Core Features</h2>
