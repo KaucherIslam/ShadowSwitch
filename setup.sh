@@ -23,15 +23,15 @@ else
 fi
 
 # 3. Finalize Permissions
-echo "----------------------------------------------------"
-echo "Initial setup complete. If you chose 'Y/y' run with:" 
-echo "python3 ShadowSwitch.py                             "
-echo "                                                    "
-echo "Or everyone can run with:                           "
-echo "bash start.sh                                       "
-echo "Or                                                  "
-echo "./start.sh                                          "
-echo "----------------------------------------------------"
+echo "--------------------------------------------------"
+echo "Initial setup complete. If you chose 'y' run with:" 
+echo "python3 ShadowSwitch.py                           "
+echo "                                                  "
+echo "Or everyone can run with:                         "
+echo "bash start.sh                                     "
+echo "Or                                                "
+echo "./start.sh                                        "
+echo "--------------------------------------------------"
 
 chmod +x ShadowSwitch.py
 chmod +x start.sh
