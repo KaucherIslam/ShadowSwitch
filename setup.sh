@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Install system requirements
-sudo apt update && sudo apt install macchanger python3 python3-pip python3-tk python3-venv -y
+sudo apt update && sudo apt install ufw macchanger python3 python3-pip python3-tk python3-venv -y
 
 # 2. Display Choice
 echo "--------------------------------------------------------------"
