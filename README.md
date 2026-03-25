@@ -101,21 +101,9 @@ In the current Linux ecosystem, anonymity tools are often fragmented or restrict
 
 *Distributed under the GNU GPLv3 License. See LICENSE for more information. This ensures the tool remains open-source and that any future iterations or improvements by the community are shared back with the public.*
 
-<h2>Project Roadmap</h2>
-
- - [ ] **Phase 1:** *Core CLI logic and networking functions.*
-
- - [ ] **Phase 2:** *Development of the CustomTkinter dashboard.*
-
- - [ ] **Phase 3:** *Implementation of "Automatic" vs "Manual" logic.*
-
- - [ ] **Phase 4:** *Beta testing on Debian-based and Arch-based systems.*
-
 <h1 align="center">Project Roadmap & Community Input</h1>
 
- - **Status:** Under Active Development
-
- - **Target Completion:** March 2026
+ - **Status:** Core Project Completed.
 
 I am currently building out the core logic and GUI for ShadowSwitch, with a full version expected by March 2026! I’m always looking to improve this tool and make it as useful as possible.
 
