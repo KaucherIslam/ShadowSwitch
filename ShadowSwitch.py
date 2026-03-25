@@ -397,7 +397,7 @@ mac_switch_var = ctk.StringVar(value="off")
 ctk.CTkSwitch(frame, text="Randomize MAC", command=toggle_mac, variable=mac_switch_var, onvalue="on", offvalue="off").pack(pady=15, padx=20, anchor="w")
 
 hostname_switch_var = ctk.StringVar(value="off")
-ctk.CTkSwitch(frame, text="Randomize Hostname", command=toggle_hostname, variable=hostname_switch_var, onvalue="on", offvalue="off").pack(pady=15, padx=20, anchor="w")
+ctk.CTkSwitch(frame, text="Randomize Pretty Hostname", command=toggle_hostname, variable=hostname_switch_var, onvalue="on", offvalue="off").pack(pady=15, padx=20, anchor="w")
 
 dns_switch_var = ctk.StringVar(value="off")
 ctk.CTkSwitch(frame, text="Secure DNS", command=toggle_dns, variable=dns_switch_var, onvalue="on", offvalue="off").pack(pady=15, padx=20, anchor="w")
